@@ -1,4 +1,4 @@
-# RISE AND PINE CO. is a brand story splash page built on the Start Bootstrap Freelancer framework.  MIT license below:
+## RISE AND PINE CO. is a brand story splash page built on the Start Bootstrap Freelancer framework.  MIT license below:
 ##
 ##
 ##
