@@ -149,10 +149,20 @@
 /* Media query additions */
 
 @media (max-width: 767px) {
+  p {
+    font-size: 15px;
+  }
+
+  .portfolio-modal .modal-content {
+    padding: 25px 0;
+  }
+
   header {
     background-image:url(assets/sights-and-sounds-1x.png);
     background-attachment: fixed;
     background-size: 100%;
+
+    font-size
 
   }
 
