@@ -6,7 +6,7 @@
         //If iOS
             if( /webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
                 $("a[href='https://www.instagram.com/riseandpineco/']").attr('href','instagram://user?username=riseandpineco');
-                $("a[href='https://www.facebook.com/riseandpineco'").attr('href','fb://profile/1158300764228333');
+                $("a[href='https://www.facebook.com/riseandpineco/']").attr('href','fb://profile/1158300764228333');
             }
         //If Android
             else if(/Android/i.test(navigator.userAgent) ){
