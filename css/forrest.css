@@ -132,6 +132,23 @@
 
 /* Specific section stylings */
 
+.portfolio-modal .modal-content {
+    padding: 25px 0;
+  }
+
+.navbar-custom .navbar-announcement {
+  font-size: 1em;
+  color: yellow;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+
+}
+
+.navbar-custom.affix .navbar-announcement {
+    font-size: 0.8em;
+  }
+
 #header-text {
   background-color: white;
 }
@@ -142,9 +159,11 @@
 }
 
 #portfolio {
-  color: #03C126;
+  color: #111310;
 
 }
+
+/* Specific image styles */
 
 /* Media query additions */
 
@@ -153,17 +172,10 @@
     font-size: 15px;
   }
 
-  .portfolio-modal .modal-content {
-    padding: 25px 0;
-  }
-
   header {
     background-image:url(assets/sights-and-sounds-1x.png);
     background-attachment: fixed;
     background-size: 100%;
-
-    font-size
-
   }
 
   #portfolio {
@@ -171,7 +183,6 @@
     background-attachment: fixed;
     background-size: 100%;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -186,7 +197,6 @@
     background-attachment: fixed;
     background-size: 100%;
   }
-
 }
 
 /*End FORREST.CSS*/
