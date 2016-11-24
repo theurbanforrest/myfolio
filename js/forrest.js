@@ -6,10 +6,12 @@
         //If iOS
             if( /webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
                 $("a[href='https://www.instagram.com/riseandpineco/']").attr('href','instagram://user?username=riseandpineco');
+                $("a[href='https://www.facebook.com/riseandpineco'").attr('href','fb://profile/1158300764228333');
             }
         //If Android
             else if(/Android/i.test(navigator.userAgent) ){
                 $("a[href='https://www.instagram.com/riseandpineco/']").attr('href','intent://instagram.com/_u/riseandpineco/#Intent;package=com.instagram.android;scheme=https;end');
+                $("a[href='https://www.facebook.com/riseandpineco'").attr('href','fb://profile/1158300764228333');
             }
     /*End Social Deeplinks*/
 
