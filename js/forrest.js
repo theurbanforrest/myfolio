@@ -25,3 +25,56 @@
 })(jQuery); // End of use strict
 
 
+    /*Analytics Handlers*/
+
+        //Set useful variables
+        dataLayer.modal1name = $("#portfolioModal1-name").text();
+        dataLayer.modal2name = $("#portfolioModal2-name").text();
+        dataLayer.modal3name = $("#portfolioModal3-name").text();
+
+        //Portfolio Link Clicks
+        $(".portfolio-link").on("click", function() {
+            var clickName = $(this.getAttribute('href')+"-name").text();
+                dataLayer.push(
+                    {
+                        'event' : 'User Interaction',
+                        'eventName' : 'Portfolio Link Click',
+                        'clickName' : clickName
+                    }
+                );
+        });
+
+        //Home Click
+        $(".navbar-brand").on("click", function(){
+            var clickName = this.text;
+                dataLayer.push(
+                    {
+                        'event' : 'User Interaction',
+                        'eventName' : 'Home Click',
+                        'clickName' : clickName
+
+                    }
+                );
+        });
+
+        //Footer : Instagram Click
+        $("#footer-instagram").on("click", function() {
+                dataLayer.push(
+                    {
+                        'event' : 'User Interaction',
+                        'eventName' : 'Footer Click',
+                        'clickName' : 'Instagram'
+                    }
+                );
+        });
+
+        //Footer : Facebook Click
+        $("#footer-facebook").on("click", function() {
+                dataLayer.push(
+                    {
+                        'event' : 'User Interaction',
+                        'eventName' : 'Footer Click',
+                        'clickName' : 'Facebook'
+                    }
+                );
+        });
