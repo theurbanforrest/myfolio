@@ -150,12 +150,9 @@
   }
 
 #header-text {
-  background-color: white;
-}
-
-#about {
-  background-color: #03C126;
+  background-color: rgba(0,0,0,0.8);
   color: white;
+  padding: 3%;
 }
 
 #portfolio {
@@ -173,10 +170,18 @@
   }
 
   header {
-    background-image:url(assets/sights-and-sounds-1x.png);
+    background-color: black;
+    background-image:url(assets/city-timessquare.JPG);  /*If small, only set in Header*/
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
   }
+
+  #about {
+    background-color: rgba(3, 193, 38, 1);
+    color: white;
+  }
+
 
   #portfolio {
     background-image:url(assets/sights-and-sounds-1x.png);
@@ -187,9 +192,14 @@
 
 @media (min-width: 768px) {
   header {
-    background-image:url(assets/sights-and-sounds-2x.png);
+    /*background-image:url(assets/city-timessquare.JPG);*/
     background-attachment: fixed;
     background-size: 100%;
+  }
+
+  #about {
+    background-color: rgba(3, 193, 38, 0.8);
+    color: white;
   }
 
   #portfolio {
@@ -197,6 +207,15 @@
     background-attachment: fixed;
     background-size: 100%;
   }
+
+  body {
+    background-image:url(assets/city-timessquare.JPG);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 0px 0px;
+  }
 }
+
+
 
 /*End FORREST.CSS*/
