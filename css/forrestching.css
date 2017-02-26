@@ -1,0 +1,22 @@
+#page_wrap {
+	background-image: url(../img/nyfun.png);
+}
+
+#left_buffer #right_buffer{
+	background-color: transparent;
+}
+
+@media(min-width:768px) {
+    #main {
+        padding-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    #main {
+    	margin-top: 60px;
+    }
+    body {
+    	margin-top:0px;
+    }
+}
