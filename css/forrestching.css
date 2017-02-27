@@ -3,12 +3,26 @@
 }
 
 #left_buffer #right_buffer{
-	background-color: transparent;
+}
+
+#prof_pic {
+    background-image: url(../img/profile-05.png);
+    
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-center {
+    margin: 0 auto;
 }
 
 @media(min-width:768px) {
     #main {
         padding-top: 15px;
+    }
+    .hero-right {
+        padding-left: 30px;
     }
 }
 
