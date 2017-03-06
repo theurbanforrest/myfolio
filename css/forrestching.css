@@ -13,13 +13,59 @@
     background-repeat: no-repeat;
 }
 
-.bg-theme-1 {
+
+.fc-nice-list li {
+    margin: 0;
+    padding: 0;
+    counter-reset: foo;
+    display: table ;
+    list-style: none;
+    counter-increment: foo;
+    display: table-row;
+}
+
+.fc-nice-list li::before {
+    content: counter() ".";
+    display: table-cell;
+    text-align: right;
+    padding-right: .3em;
+}
+
+.fc-center-align {
+    text-align: center;
+}
+
+.fc-bg-1 {
     background-color: white;
+}
+
+.fc-bg-2 {
+    background-image: url(../img/timessquare1x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fc-hero-overlay {
+    background-color: rgb(26, 110, 204);
+    color: white;
+    opacity: 0.85}
+
+.fc-img-resp {
+    max-width: 100%;
+    height: auto;
 }
 
 .img-center {
     margin: 0 auto;
 }
+
+
+
+
+
+
+
+
 
 @media(min-width:768px) {
     #main {
@@ -27,6 +73,10 @@
     }
     .hero-right {
         padding-left: 30px;
+    }
+    .fc-row-reverse {
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
 
@@ -36,5 +86,8 @@
     }
     body {
     	margin-top:0px;
+    }
+    .fc-row-reverse {
+        flex-direction: row;
     }
 }
