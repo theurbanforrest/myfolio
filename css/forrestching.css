@@ -1,5 +1,6 @@
 #page_wrap {
 	background-image: url(../img/nyfun.png);
+    background-attachment: fixed;
 }
 
 #left_buffer #right_buffer{
