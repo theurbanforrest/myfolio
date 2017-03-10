@@ -12,4 +12,4 @@
                 $("a[href='https://www.linkedin.com/in/forrest-ching-86421232/']").attr('href','https://www.linkedin.com/in/forrest-ching-86421232/');
     /*End Social Deeplinks*/
 
-})(jQuery); // End of use strict
+}(jQuery); // End of use strict
