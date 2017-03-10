@@ -36,6 +36,7 @@
     text-align: center;
 }
 
+
 .fc-bg-1 {
     background-color: white;
 }
@@ -44,6 +45,15 @@
     background-image: url(../img/timessquare1x.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.fc-bg-3 {
+    background-color: rgb(26, 110, 204);
+    color: white;
+}
+
+.fc-text-2 {
+    color: white;
 }
 
 .fc-hero-overlay {
