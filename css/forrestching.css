@@ -36,7 +36,6 @@
     text-align: center;
 }
 
-
 .fc-bg-1 {
     background-color: white;
 }
@@ -48,7 +47,16 @@
 }
 
 .fc-bg-3 {
-    background-color: rgb(26, 110, 204);
+    background-color: rgb(0, 102, 0);
+    color: white;
+}
+
+.fc-bg-4 {
+    background-color: #222;
+}
+
+.fc-btn-3 {
+    background-color: rgb(0, 102, 0);
     color: white;
 }
 
@@ -57,7 +65,7 @@
 }
 
 .fc-hero-overlay {
-    background-color: rgb(26, 110, 204);
+    background-color: #222;
     color: white;
     opacity: 0.85}
 
@@ -71,7 +79,9 @@
 }
 
 
-
+.navbar-inverse {
+    /*background-color: rgb(0, 102, 0);*/
+}
 
 
 
