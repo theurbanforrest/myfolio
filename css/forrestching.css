@@ -6,7 +6,7 @@
 #left_buffer #right_buffer{
 }
 
-#prof_pic {
+.fc-prof-pic {
     background-image: url(../img/profile-05.png);
     
     height: 150px;
@@ -14,6 +14,13 @@
     background-repeat: no-repeat;
 }
 
+.fc-overflow-hidden {
+    overflow: hidden;
+}
+
+.fc-vert-align-middle {
+    vertical-align: middle;
+}
 
 .fc-nice-list li {
     margin: 0;
@@ -53,6 +60,7 @@
 
 .fc-bg-4 {
     background-color: #222;
+    color: white;
 }
 
 .fc-btn-3 {
@@ -62,6 +70,10 @@
 
 .fc-text-2 {
     color: white;
+}
+
+a.fc-tip-3 {
+    color: #222;
 }
 
 .fc-hero-overlay {
@@ -80,7 +92,7 @@
 
 
 .navbar-inverse {
-    /*background-color: rgb(0, 102, 0);*/
+    background-color: rgb(0, 102, 0);
 }
 
 
