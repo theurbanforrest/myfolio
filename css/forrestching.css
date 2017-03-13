@@ -86,6 +86,16 @@ a.fc-tip-3 {
     height: auto;
 }
 
+.fc-onview-fadein {
+}
+
+.fc-hidden{
+     opacity:0;
+}
+.fc-visible{
+     opacity:1;
+}
+
 .img-center {
     margin: 0 auto;
 }
