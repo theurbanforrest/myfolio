@@ -7,8 +7,14 @@
 }
 
 .fc-prof-pic {
-    background-image: url(../img/profile-05.png);
-    
+    background-image: url(../img/profile-05.png);   
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fc-prof-piney {
+    background-image: url(../img/profile-piney.png);
     height: 150px;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,6 +26,10 @@
 
 .fc-vert-align-middle {
     vertical-align: middle;
+}
+
+.fc-top-padded {
+    padding-top: 20px;
 }
 
 .fc-nice-list li {
@@ -61,6 +71,12 @@
 .fc-bg-4 {
     background-color: #222;
     color: white;
+}
+
+.fc-bg-5 {
+    background-image: url(../img/implem-headers.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .fc-btn-3 {
